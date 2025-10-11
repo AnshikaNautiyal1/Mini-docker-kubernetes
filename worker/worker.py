@@ -1,3 +1,4 @@
+# A simple worker that simulates container management using subprocesses.
 import socket
 import os
 import subprocess
