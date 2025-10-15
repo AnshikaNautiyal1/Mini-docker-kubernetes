@@ -1,7 +1,3 @@
-
-
-
-
 # import socket, json, os
 
 # # List of available worker nodes (IP, PORT)
