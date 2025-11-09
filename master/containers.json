@@ -1,0 +1,62 @@
+[
+  {
+    "container_id": "72bfa8ad2bf2",
+    "container_name": "container-72bfa8",
+    "command": "echo \"Hello from container 1\"",
+    "worker": "127.0.0.1:5001",
+    "created_at": "2025-10-16T09:16:43Z",
+    "state": {
+      "status": "running",
+      "started_at": "2025-10-16T09:16:43Z"
+    },
+    "process_details": {
+      "pid": 63948
+    },
+    "resource_config": {
+      "limits": {
+        "cpu": "500m",
+        "memory": "256Mi"
+      }
+    }
+  },
+  {
+    "container_id": "82e6f05aa6a5",
+    "container_name": "container-82e6f0",
+    "command": "sleep 5",
+    "worker": "127.0.0.1:5002",
+    "created_at": "2025-10-16T09:16:49Z",
+    "state": {
+      "status": "running",
+      "started_at": "2025-10-16T09:16:49Z"
+    },
+    "process_details": {
+      "pid": 63963
+    },
+    "resource_config": {
+      "limits": {
+        "cpu": "500m",
+        "memory": "256Mi"
+      }
+    }
+  },
+  {
+    "container_id": "ed08e84c6055",
+    "container_name": "container-ed08e8",
+    "command": "echo \"Hello again\"",
+    "worker": "127.0.0.1:5001",
+    "created_at": "2025-10-16T09:16:58Z",
+    "state": {
+      "status": "running",
+      "started_at": "2025-10-16T09:16:58Z"
+    },
+    "process_details": {
+      "pid": 63978
+    },
+    "resource_config": {
+      "limits": {
+        "cpu": "500m",
+        "memory": "256Mi"
+      }
+    }
+  }
+]
